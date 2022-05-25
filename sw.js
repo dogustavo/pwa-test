@@ -1,11 +1,12 @@
+const BASE = 'https://dogustavo.github.io/pwa-test/'
 const CACHE_NAME = 'findme-v8'
 const assets = [
-  '/',
-  '/index.html',
-  'js/instalar.js',
-  '/js/app.js',
-  '/manifest.json',
-  '/img/icon.png',
+  BASE,
+  BASE + '/index.html',
+  BASE + 'js/instalar.js',
+  BASE + '/js/app.js',
+  BASE + '/manifest.json',
+  BASE + '/img/icon.png',
   'https://unpkg.com/leaflet@1.8.0/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.8.0/dist/leaflet.js',
   'http://api.open-notify.org/iss-now.json',
