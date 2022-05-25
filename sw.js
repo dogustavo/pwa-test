@@ -9,7 +9,6 @@ const assets = [
   `${BASE}/img/icon.png`,
   'https://unpkg.com/leaflet@1.8.0/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.8.0/dist/leaflet.js',
-  'http://api.open-notify.org/iss-now.json',
   'https://5ed24c67-3bee-4c64-bb1b-8453c0483738.mock.pstmn.io/location'
 ]
 
