@@ -1,7 +1,7 @@
 const CACHE_NAME = 'findme-v8'
 const assets = [
   '/',
-  '/app.html',
+  '/index.html',
   'js/instalar.js',
   '/js/app.js',
   '/manifest.json',
