@@ -1,5 +1,6 @@
 const BASE = 'https://dogustavo.github.io/pwa-test/'
 const CACHE_NAME = 'findme-v8'
+
 const assets = [
   BASE,
   `${BASE}/index.html`,
