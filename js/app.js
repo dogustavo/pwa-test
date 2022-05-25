@@ -15,10 +15,11 @@ if ('serviceWorker' in navigator) {
 
 async function getSpaceStationPosition() {
   const response = await fetch(
-    'http://api.open-notify.org/iss-now.json',
-    { mode: 'cors' }
+    'https://5ed24c67-3bee-4c64-bb1b-8453c0483738.mock.pstmn.io/location'
   )
   const data = await response.json()
+
+  console.log(data)
 
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showLocation, showError)
