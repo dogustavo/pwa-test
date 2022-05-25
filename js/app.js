@@ -19,8 +19,6 @@ async function getSpaceStationPosition() {
   )
   const data = await response.json()
 
-  console.log(data)
-
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showLocation, showError)
 
