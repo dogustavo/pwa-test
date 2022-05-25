@@ -1,7 +1,5 @@
 const root = document.getElementById('root')
 
-var headers = new Headers()
-headers.append('Service-Worker-Allowed', '*')
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
     navigator.serviceWorker
