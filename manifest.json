@@ -1,8 +1,8 @@
 {
   "short_name": "Find me",
   "name": "Me encontre",
-  "start_url": "/app.html",
-  "id": "/app.html",
+  "start_url": "index.html",
+  "id": "index.html",
   "icons": [
     {
       "src": "img/icon.png",

@@ -1,11 +1,9 @@
 const root = document.getElementById('root')
 
-var headers = new Headers()
-headers.append('Service-Worker-Allowed', '/app.html')
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
     navigator.serviceWorker
-      .register('/sw.js')
+      .register('https://dogustavo.github.io/pwa-test/sw.js')
       .then((res) => console.log('service worker registered'))
       .catch((err) =>
         console.log('service worker not registered', err)
@@ -17,7 +15,7 @@ if ('serviceWorker' in navigator) {
 
 async function getSpaceStationPosition() {
   const response = await fetch(
-    'http://api.open-notify.org/iss-now.json'
+    'https://5ed24c67-3bee-4c64-bb1b-8453c0483738.mock.pstmn.io/location'
   )
   const data = await response.json()
 
