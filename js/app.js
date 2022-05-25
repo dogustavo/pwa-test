@@ -17,7 +17,8 @@ if ('serviceWorker' in navigator) {
 
 async function getSpaceStationPosition() {
   const response = await fetch(
-    'http://api.open-notify.org/iss-now.json'
+    'http://api.open-notify.org/iss-now.json',
+    { mode: 'cors' }
   )
   const data = await response.json()
 
