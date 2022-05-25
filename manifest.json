@@ -1,6 +1,8 @@
 {
   "short_name": "Find me",
   "name": "Me encontre",
+  "start_url": "/app.html",
+  "id": "/app.html",
   "icons": [
     {
       "src": "img/icon.png",
@@ -8,7 +10,6 @@
       "type": "image/png"
     }
   ],
-  "start_url": "app.html",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#43a047",
